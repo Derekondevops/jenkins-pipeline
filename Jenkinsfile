@@ -5,7 +5,7 @@ pipeline {
             steps {
                 echo 'Mücahit Adamdır'
                 sh 'python --version'
-                sh 'python pipeline.py'
+                sh 'python hello-world.py'
             }
         }
     }

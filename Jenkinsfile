@@ -1,9 +1,9 @@
 pipeline {
     agent any
     stages {
-        stage('build') {
+        stage('run') {
             steps {
-                echo "Mücahit Ceren Adamdır Adam!"
+                echo 'Mücahit Adamdır'
                 sh 'python --version'
                 sh 'python pipeline.py'
             }

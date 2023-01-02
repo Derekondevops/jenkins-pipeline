@@ -4,8 +4,8 @@ pipeline {
         stage('build') {
             steps {
                 echo "Mücahit Ceren Adamdır Adam!"
-                sh 'echo using shell within Jenkinsfile'
-                echo 'not using shell in the Jenkinsfile'
+                sh 'python --version'
+                sh 'python pipeline.py'
             }
         }
     }
